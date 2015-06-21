@@ -27,8 +27,8 @@ h1{
   #homeButton{
     visibility: visible;
     padding-top: 15px;
-    margin-left: 4%;
-    font-size: 14pt;
+    margin-left: 3%;
+    font-size: 16pt;
   }
 
   #homeButton a{
