@@ -31,4 +31,8 @@ h1{
     font-size: 14pt;
   }
 
+  #homeButton a{
+    color: #CFD8DC;
+  }
+
 }
