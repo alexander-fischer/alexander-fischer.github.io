@@ -1,41 +1,15 @@
 body{
-	font-family: 'Roboto', Tahoma;
+	font-family: 'Roboto', Tahoma, serif;
 	background-color: #37474F;
 	margin:0px;
 	color: white;
 }
 
-h1{
-	font-size: 20pt;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
 a{
 	color: white;
 	text-decoration: none;
-	padding-right: 20px;
 }
 
 a:hover{
 	color: #CFD8DC;
-}
-
-.content{
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-#header{
-	height: 50px;
-	background-color: #263238;
-}
-
-#ecWrapper{
-	margin-top: 25vh;
-	margin-left: 20%;
-}
-
-#eyecatcher{
-	font-size: 60pt;
 }

@@ -1,0 +1,22 @@
+h1{
+	font-size: 20pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.content{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+#haftungsausschluss p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width : 200px) and (max-width : 768px) {
+  .content{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
