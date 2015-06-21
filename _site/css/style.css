@@ -13,3 +13,8 @@ a{
 a:hover{
 	color: #CFD8DC;
 }
+
+.header{
+	height: 50px;
+	background-color: #263238;
+}

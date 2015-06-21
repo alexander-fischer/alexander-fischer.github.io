@@ -1,3 +1,7 @@
+#homeButton{
+  visibility: hidden;
+}
+
 h1{
 	font-size: 20pt;
 	margin-top: 10px;
@@ -19,4 +23,12 @@ h1{
     margin-left: 2%;
     margin-right: 2%;
   }
+
+  #homeButton{
+    visibility: visible;
+    padding-top: 15px;
+    margin-left: 2%;
+    font-size: 14pt;
+  }
+
 }
