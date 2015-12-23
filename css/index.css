@@ -1,36 +1,29 @@
-a{
+a {
   padding-right: 20px;
 }
-
-.page{
+.page {
   height: 100vh;
   background-color: white;
   color: #263238;
 }
-
-.ecPage{
-  height:68vh;
+.ecPage {
+  height: 68vh;
 }
-
-#ecWrapper{
-	margin-top: 25vh;
-	margin-left: 20%;
+#ecWrapper {
+  margin-top: 25vh;
+  margin-left: 20%;
 }
-
-#eyecatcher{
-	font-size: 60pt;
+#eyecatcher {
+  font-size: 60pt;
 }
-
-@media only screen and (min-width : 200px) and (max-width : 667px) {
-  a{
+@media only screen and (min-width: 200px) and (max-width: 667px) {
+  a {
     padding-right: 5px;
   }
-
-  #ecWrapper{
+  #ecWrapper {
     margin-left: 2%;
   }
-
-  #eyecatcher{
+  #eyecatcher {
     font-size: 40pt;
   }
 }

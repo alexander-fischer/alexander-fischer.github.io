@@ -3,14 +3,9 @@ body {
   /*background-color: #37474F;*/
   margin: 0px;
   color: white;
-
-
-	background: #360033; /* fallback for old browsers */
-	background: -webkit-linear-gradient(to left, #360033 , #0b8793); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to left, #360033 , #0b8793); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
+  background: #360033;
+  background: -webkit-linear-gradient(to left, #360033, #0b8793);
+  background: linear-gradient(to left, #360033, #0b8793);
 }
 a {
   color: white;
@@ -22,5 +17,5 @@ a:hover {
 .header {
   height: 7vh;
   background-color: #263238;
-	opacity: 0.5;
+  opacity: 0.5;
 }
