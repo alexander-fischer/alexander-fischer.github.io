@@ -1,36 +1,13 @@
-body {
-  background: #360033;
-  background: -webkit-linear-gradient(to left, #360033, #0b8793);
-  background: linear-gradient(to left, #360033, #0b8793);
-}
-h1 {
-  font-size: 20pt;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 .content {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
-#homeButton {
-  visibility: hidden;
+
+.navbar-link {
+  margin-left: 20%;
 }
-#haftungsausschluss p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-@media only screen and (min-width: 200px) and (max-width: 768px) {
-  .content {
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  #homeButton {
-    visibility: visible;
-    padding-top: 2vh;
-    margin-left: 3%;
-    font-size: 16pt;
-  }
-  #homeButton a {
-    color: #CFD8DC;
-  }
+
+.navbar-link:hover {
+  color: #ff9068;
+  transition: 0.8s;
 }

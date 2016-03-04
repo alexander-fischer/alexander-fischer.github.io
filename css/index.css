@@ -1,34 +1,19 @@
-body {
-  background: #fd746c;
-  background: -webkit-linear-gradient(to left, #fd746c, #ff9068);
-  background: linear-gradient(to left, #fd746c, #ff9068);
+.eyecatcher-wrapper {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
-a {
-  padding-right: 20px;
-}
-.page {
-  height: 100vh;
-  background-color: white;
-  color: #263238;
-}
-.ecPage {
-  height: 68vh;
-}
-#ecWrapper {
-  margin-top: 25vh;
-  margin-left: 20%;
-}
-#eyecatcher {
+
+.eyecatcher-text {
   font-size: 60pt;
 }
-@media only screen and (min-width: 200px) and (max-width: 667px) {
-  a {
-    padding-right: 5px;
-  }
-  #ecWrapper {
-    margin-left: 2%;
-  }
-  #eyecatcher {
-    font-size: 40pt;
-  }
+
+.title-link {
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 15pt;
+}
+
+.title-link:hover {
+  color: #ff9068;
+  transition: 0.8s;
 }
