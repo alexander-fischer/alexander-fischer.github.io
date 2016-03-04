@@ -1,38 +1,36 @@
-h1{
-	font-size: 20pt;
-	margin-top: 10px;
-	margin-bottom: 10px;
+body {
+  background: #360033;
+  background: -webkit-linear-gradient(to left, #360033, #0b8793);
+  background: linear-gradient(to left, #360033, #0b8793);
 }
-
-.content{
-	margin-left: 25%;
-	margin-right: 25%;
-}
-
-#homeButton{
-  visibility: hidden;
-}
-
-#haftungsausschluss p{
+h1 {
+  font-size: 20pt;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-@media only screen and (min-width : 200px) and (max-width : 768px) {
-  .content{
+.content {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#homeButton {
+  visibility: hidden;
+}
+#haftungsausschluss p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media only screen and (min-width: 200px) and (max-width: 768px) {
+  .content {
     margin-left: 2%;
     margin-right: 2%;
   }
-
-  #homeButton{
+  #homeButton {
     visibility: visible;
     padding-top: 2vh;
     margin-left: 3%;
     font-size: 16pt;
   }
-
-  #homeButton a{
+  #homeButton a {
     color: #CFD8DC;
   }
-
 }

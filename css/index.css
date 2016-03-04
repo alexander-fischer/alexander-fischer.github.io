@@ -1,3 +1,9 @@
+body{
+  background: #360033;
+  background: -webkit-linear-gradient(to left, #360033, #0b8793);
+  background: linear-gradient(to left, #360033, #0b8793);
+}
+
 a {
   padding-right: 20px;
 }
