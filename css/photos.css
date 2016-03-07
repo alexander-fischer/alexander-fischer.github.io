@@ -12,3 +12,14 @@
 .image-wrapper span {
   margin-top: 1%;
 }
+
+@media only screen and (max-width: 425px) {
+
+  .image-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+
+}
