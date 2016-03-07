@@ -1168,7 +1168,7 @@ table {
     .title.is-normal strong {
       font-weight: 700; }
   .title.is-1 {
-    font-size: 60px; }
+    font-size: 54px; }
     .title.is-1 code {
       font-size: 40px; }
   .title.is-2 {
@@ -1215,7 +1215,7 @@ table {
     .subtitle.is-normal strong {
       font-weight: 700; }
   .subtitle.is-1 {
-    font-size: 60px; }
+    font-size: 54px; }
     .subtitle.is-1 code {
       font-size: 40px; }
   .subtitle.is-2 {
@@ -2935,3 +2935,5 @@ a.menu-block:hover {
       border-bottom: 1px solid #d3d6db; }
       .footer a:not(.icon):hover {
         border-bottom-color: #fd746c; }
+
+/*# sourceMappingURL=bulma.css.map */

@@ -13,3 +13,23 @@
   color: #FFDB99;
   transition: 0.8s;
 }
+
+.section-h {
+  margin-top: 2%;
+}
+
+@media only screen and (min-width: 1025px) {
+
+  .eyecatcher-text {
+    font-size: 60pt;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .eyecatcher-text {
+    font-size: 36pt;
+  }
+
+}

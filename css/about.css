@@ -1,25 +1,14 @@
-.content {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.navbar-link {
-  margin-left: 20%;
-}
 
 .navbar-link:hover {
   color: #ff9068;
   transition: 0.8s;
 }
 
-@media only screen and (max-width: 425px) {
-  .content {
+@media only screen and (max-width: 768px) {
+  
+  .container {
     margin-left: 5%;
     margin-right: 5%;
-  }
-
-  .navbar-link {
-    margin-left: 5%;
   }
 
 }
